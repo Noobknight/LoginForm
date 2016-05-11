@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoginForm">
+        <attr name="colorBackgroundForm" format="color" />
+        <attr name="backgroundForm" format="reference" />
+        <attr name="iconLogin" format="reference" />
+        <attr name="firstFieldName" format="string" />
+        <attr name="secondsFieldName" format="string" />
+        <attr name="colorAlpha" format="color" />
+        <attr name="enable_social" format="boolean" />
+        <attr name="colorButtonLogin" format="reference" />
+        <attr name="colorTextButton" format="color" />
+    </declare-styleable>
+
+</resources>

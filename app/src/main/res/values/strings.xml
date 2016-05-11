@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Login</string>
+
+    <string name="firstFieldName">Username</string>
+    <string name="secondsFieldName">Password</string>
+
+    <string name="btnLogin">Login</string>
+
+    <string name="txtIdea">Not a member? Sign up now</string>
+
+    <string name="txtEmpty">Field not empty</string>
+
+    <string name="forget_pwd">Forgot password ?</string>
+
+    <string name="idea_connect">Or Connect With</string>
+
+    <string name="social_google">google</string>
+    <string name="socical_facebook">facebook</string>
+</resources>
