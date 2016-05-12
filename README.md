@@ -4,7 +4,7 @@ A template design for login, easy make user interface and validation
 
 Preview :
 
-[![Build screen](https://github.com/Noobknight/LoginForm/blob/master/login_screenshot.png)]
+![Build screen](https://github.com/Noobknight/LoginForm/blob/master/login_screenshot.png)
 
 #Download
 In your module [ ![Download](https://api.bintray.com/packages/noobknight/maven/LoginForm/images/download.svg) ](https://bintray.com/noobknight/maven/LoginForm/_latestVersion)
