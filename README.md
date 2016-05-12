@@ -1,3 +1,5 @@
+#Login Template
+
 A template design for login, easy make user interface and validation
 
 Preview :
@@ -116,4 +118,5 @@ Change color of **colorAccent** in styles.xml
 
 #Credits
 Author : Tadev
+
 Email : cheatgame.hit@gmail.com
