@@ -21,7 +21,7 @@ import android.widget.TextView;
 /**
  * Created by PC on 11/05/2016.
  */
-public class Login extends FrameLayout implements View.OnClickListener {
+public class Login extends LinearLayout implements View.OnClickListener {
     private final String TAG = "Login";
 
     private Settings settings = new Settings();

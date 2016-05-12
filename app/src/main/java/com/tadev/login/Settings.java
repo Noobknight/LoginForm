@@ -29,36 +29,36 @@ public class Settings implements Parcelable {
 
     public void handleAttributes(Context context, AttributeSet attrs) {
         try {
-            TypedArray typedArrs = context.obtainStyledAttributes(attrs, R.styleable.LoginForm);
+            TypedArray typedArrs = context.obtainStyledAttributes(attrs, R.styleable.Login);
 
-            colorBackground = typedArrs.getColor(R.styleable.LoginForm_colorBackgroundForm, -1);
+            colorBackground = typedArrs.getColor(R.styleable.Login_colorBackgroundForm, -1);
             if (colorBackground == -1) {
                 colorBackground = ContextCompat.getColor(context, R.color.white);
             } else {
                 isBackgroundColor = true;
             }
-            background = typedArrs.getResourceId(R.styleable.LoginForm_backgroundForm, R.drawable.background);
+            background = typedArrs.getResourceId(R.styleable.Login_backgroundForm, R.drawable.background);
             if (background == -1) {
                 isBackgroundColor = true;
             }
-            icon = typedArrs.getResourceId(R.styleable.LoginForm_iconLogin, -1);
-            firstFieldName = typedArrs.getString(R.styleable.LoginForm_firstFieldName);
+            icon = typedArrs.getResourceId(R.styleable.Login_iconLogin, -1);
+            firstFieldName = typedArrs.getString(R.styleable.Login_firstFieldName);
             if (typedArrs == null) {
                 firstFieldName = context.getResources().getString(R.string.firstFieldName);
             }
-            secondsFieldName = typedArrs.getString(R.styleable.LoginForm_secondsFieldName);
+            secondsFieldName = typedArrs.getString(R.styleable.Login_secondsFieldName);
             if (typedArrs == null) {
                 firstFieldName = context.getResources().getString(R.string.secondsFieldName);
             }
 
-            colorAlpha = typedArrs.getColor(R.styleable.LoginForm_colorAlpha,
+            colorAlpha = typedArrs.getColor(R.styleable.Login_colorAlpha,
                     ContextCompat.getColor(context, R.color.default_color_alpha));
-            enableSocial = typedArrs.getBoolean(R.styleable.LoginForm_enable_social, true);
+            enableSocial = typedArrs.getBoolean(R.styleable.Login_enable_social, true);
 
-            colorBackgroundButton = typedArrs.getColor(R.styleable.LoginForm_colorButtonLogin,
+            colorBackgroundButton = typedArrs.getColor(R.styleable.Login_colorButtonLogin,
                     ContextCompat.getColor(context, R.color.white));
 
-            colorTextButton = typedArrs.getColor(R.styleable.LoginForm_colorTextButton,
+            colorTextButton = typedArrs.getColor(R.styleable.Login_colorTextButton,
                     ContextCompat.getColor(context, R.color.colorPrimary));
             typedArrs.recycle();
         } catch (Exception e) {
